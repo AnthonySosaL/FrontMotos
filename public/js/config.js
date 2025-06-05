@@ -1,5 +1,5 @@
 // Exponemos la configuración global para los scripts del cliente
-const API_BASE_URL = window.API_BASE_URL || 'http://localhost:9090/api';
+const API_BASE_URL = window.API_BASE_URL || 'https://backmotos.onrender.com/api';
 
 // Función para manejar errores API comunes
 function handleApiError(xhr, defaultMessage) {
