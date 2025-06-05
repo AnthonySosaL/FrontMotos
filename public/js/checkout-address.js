@@ -1,6 +1,6 @@
 $(function() {
   // Definir la URL base de la API
-  const API_BASE_URL = window.API_BASE_URL || 'http://localhost:9090/api';
+  const API_BASE_URL = window.API_BASE_URL || 'https://backmotos.onrender.com/api';
   
   // Verificar autenticación
   const token = localStorage.getItem('token');

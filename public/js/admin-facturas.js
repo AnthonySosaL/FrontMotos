@@ -4,7 +4,7 @@ $(function() {
   const role = localStorage.getItem('role');
   
   // Definir la URL base para las llamadas a la API
-  const API_BASE_URL = 'http://localhost:9090/api';
+  const API_BASE_URL = 'https://backmotos.onrender.com/api';
   
   if (!token) {
     window.location.href = '/auth/login?redirect=/admin/facturas';

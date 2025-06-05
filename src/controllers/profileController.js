@@ -11,7 +11,7 @@ const profileController = {
       
       res.render('users/profile', { // Cambiado a la ruta correcta users/profile
         title: 'Mi Perfil',
-        apiBaseUrl: process.env.API_BASE_URL || 'http://localhost:9090/api'
+        apiBaseUrl: process.env.API_BASE_URL || 'https://backmotos.onrender.com/api'
       });
     } catch (error) {
       console.error('Error al cargar el perfil:', error);
